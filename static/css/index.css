@@ -1,0 +1,95 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #061A1F;
+     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='1440' height='1265' xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3cfilter x='-17.6%25' y='-34.2%25' width='135.1%25' height='168.4%25' filterUnits='objectBoundingBox' id='b'%3e%3cfeGaussianBlur stdDeviation='50' in='SourceGraphic'/%3e%3c/filter%3e%3cfilter x='-23.6%25' y='-187.5%25' width='147.2%25' height='475%25' filterUnits='objectBoundingBox' id='d'%3e%3cfeGaussianBlur stdDeviation='50' in='SourceGraphic'/%3e%3c/filter%3e%3cfilter x='-23.6%25' y='-187.5%25' width='147.2%25' height='475%25' filterUnits='objectBoundingBox' id='e'%3e%3cfeGaussianBlur stdDeviation='50' in='SourceGraphic'/%3e%3c/filter%3e%3cfilter x='-23.6%25' y='-187.5%25' width='147.2%25' height='475%25' filterUnits='objectBoundingBox' id='g'%3e%3cfeGaussianBlur stdDeviation='50' in='SourceGraphic'/%3e%3c/filter%3e%3clinearGradient x1='98.284%25' y1='37.276%25' x2='9.488%25' y2='37.276%25' id='a'%3e%3cstop stop-color='%236366F1' offset='0%25'/%3e%3cstop stop-color='%236366F1' stop-opacity='0' offset='100%25'/%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='37.276%25' x2='9.488%25' y2='37.276%25' id='c'%3e%3cstop stop-color='%2338BDF8' offset='0%25'/%3e%3cstop stop-color='%2338BDF8' stop-opacity='0' offset='100%25'/%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='37.276%25' x2='9.488%25' y2='37.276%25' id='f'%3e%3cstop stop-color='%236EE7B7' offset='0%25'/%3e%3cstop stop-color='%236EE7B7' stop-opacity='0' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cg fill='none' fill-rule='evenodd'%3e%3cpath fill='url(%23a)' filter='url(%23b)' d='M262.132 307.493 253.019 438.5l844.887-307.493L1107.019 0z' transform='translate(-.103 -152)'/%3e%3cpath fill='url(%23c)' filter='url(%23d)' transform='rotate(-20 296.964 770.578)' d='m446.117 806.285-35.584 80h599.418l35.582-80z'/%3e%3cpath fill='url(%23a)' filter='url(%23e)' transform='rotate(-20 29.964 1143.578)' d='m179.117 1179.285-35.584 80h599.418l35.582-80z'/%3e%3cpath fill='url(%23f)' filter='url(%23g)' transform='rotate(-20 156.964 105.578)' d='m306.117 141.285-35.584 80h599.418l35.582-80z'/%3e%3c/g%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    --tw-bg-opacity: 1;
+  background-color: rgb(17 23 34/var(--tw-bg-opacity));
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+button {
+    background-color: #58B2C9;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+    padding: 15px 51px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+    opacity: .8;
+
+}
+
+/* 
+@media screen and (max-width:390px) {
+    div img {
+        width: 400px;
+        position: relative;
+        left: 0;
+    }
+
+    button {
+        background-color: #58B2C9;
+        flex-shrink: 0;
+        border: none;
+        color: white;
+        padding: 5px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        border-radius: 12px;
+        position: relative;
+        bottom: 80px;
+        left: 70px;
+        cursor: pointer;
+
+    }
+
+
+} */
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.upper img{
+    height: 444px;
+    margin-top: 15x;
+    width: auto;
+    align-self: center;
+}
+
+.upper p{
+    color: #A2E4F6;
+    font-size: 28px;
+    width: 80%;
+    text-align: center;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+button:hover {
+    opacity: 1;
+}
